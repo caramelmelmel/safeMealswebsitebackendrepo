@@ -1,9 +1,10 @@
 {
-  "name": "safeMealswebsitebackendrepo",
+  "name": "safemealswebsitebackendrepo",
   "version": "1.0.0",
   "description": "",
   "main": "heroku-connect.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,7 +12,7 @@
     "url": "git+https://github.com/caramelmelmel/safeMealswebsitebackendrepo.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "caramelmelmel",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/caramelmelmel/safeMealswebsitebackendrepo/issues"
@@ -19,5 +20,11 @@
   "homepage": "https://github.com/caramelmelmel/safeMealswebsitebackendrepo#readme",
   "devDependencies": {
     "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "sequelize": "^6.6.2"
   }
 }
